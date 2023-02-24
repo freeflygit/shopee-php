@@ -1,5 +1,5 @@
 {
-    "name": "flyer/shopee-php-sdk",
+    "name": "lfx/shopee-php-sdk",
     "description": "PHP SDK for Shopee Open API",
     "type": "library",
     "license": "MIT",
