@@ -1,11 +1,12 @@
 {
-    "name": "lfx/shopee-php-sdk",
+    "name": "jwLdy/lfx-supply",
     "description": "PHP SDK for Shopee Open API",
     "type": "library",
     "license": "MIT",
+    "homepage": "https://github.com/jwLdy/lfx-supply",
     "autoload": {
         "psr-4": {
-            "Flyer\\ShopeePhpSdk\\": "src/"
+            "jwLdy\\lfx-supply\\": "src/"
         }
     },
     "authors": [
