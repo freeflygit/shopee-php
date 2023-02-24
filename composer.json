@@ -1,12 +1,12 @@
 {
-    "name": "freeflygit/shopeeSDK",
+    "name": "freeflygit/shopee",
     "description": "PHP SDK for Shopee Open API",
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/freeflygit/shopeeSDK.git",
+    "homepage": "https://github.com/freeflygit/shopee.git",
     "autoload": {
         "psr-4": {
-            "freeflygit\\shopeeSDK\\": "ShopeePhpSdk/src/"
+            "freeflygit\\shopee\\": "ShopeePhpSdk/src/"
         }
     },
     "authors": [
