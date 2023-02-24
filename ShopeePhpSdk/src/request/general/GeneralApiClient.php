@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Haistar\ShopeePhpSdk\request\general;
+namespace Freeflygit\ShopeePhpSdk\request\general;
 
 
-use Haistar\ShopeePhpSdk\client\ShopeeApiConfig;
-use Haistar\ShopeePhpSdk\node\general\GeneralWithBodyRequest;
-use Haistar\ShopeePhpSdk\node\general\GeneralWithoutBodyRequest;
+use Freeflygit\ShopeePhpSdk\client\ShopeeApiConfig;
+use Freeflygit\ShopeePhpSdk\node\general\GeneralWithBodyRequest;
+use Freeflygit\ShopeePhpSdk\node\general\GeneralWithoutBodyRequest;
 
 class GeneralApiClient
 {

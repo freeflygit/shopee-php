@@ -7,7 +7,7 @@
  * @since 26-08-2021
  */
 
-namespace Haistar\ShopeePhpSdk\client;
+namespace Freeflygit\ShopeePhpSdk\client;
 
 
 class ShopeeApiConfig

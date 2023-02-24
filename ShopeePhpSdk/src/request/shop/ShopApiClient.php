@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Haistar\ShopeePhpSdk\request\shop;
+namespace Freeflygit\ShopeePhpSdk\request\shop;
 
 
-use Haistar\ShopeePhpSdk\client\ShopeeApiConfig;
-use Haistar\ShopeePhpSdk\node\shop\ShopWithoutBodyRequest;
-use Haistar\ShopeePhpSdk\node\shop\ShopWithBodyRequest;
+use Freeflygit\ShopeePhpSdk\client\ShopeeApiConfig;
+use Freeflygit\ShopeePhpSdk\node\shop\ShopWithoutBodyRequest;
+use Freeflygit\ShopeePhpSdk\node\shop\ShopWithBodyRequest;
 
 class ShopApiClient
 {

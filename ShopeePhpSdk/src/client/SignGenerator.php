@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Haistar\ShopeePhpSdk\client;
+namespace Freeflygit\ShopeePhpSdk\client;
 
 
 class SignGenerator

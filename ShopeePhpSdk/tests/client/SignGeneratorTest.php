@@ -2,7 +2,7 @@
 
 namespace Test\client;
 
-use Haistar\ShopeePhpSdk\client\SignGenerator;
+use Freeflygit\ShopeePhpSdk\client\SignGenerator;
 use PHPUnit\Framework\TestCase;
 
 class SignGeneratorTest extends TestCase

@@ -3,8 +3,8 @@
 namespace Test\node\shop;
 
 use Dotenv\Dotenv;
-use Haistar\ShopeePhpSdk\client\ShopeeApiConfig;
-use Haistar\ShopeePhpSdk\request\shop\ShopApiClient;
+use Freeflygit\ShopeePhpSdk\client\ShopeeApiConfig;
+use Freeflygit\ShopeePhpSdk\request\shop\ShopApiClient;
 use PHPUnit\Framework\TestCase;
 
 $dotenv = Dotenv::createImmutable(__DIR__.'/../../../');

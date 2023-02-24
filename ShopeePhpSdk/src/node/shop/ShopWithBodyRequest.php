@@ -6,14 +6,14 @@
  * @since 26-08-2021
  */
 
-namespace Haistar\ShopeePhpSdk\node\shop;
+namespace Freeflygit\ShopeePhpSdk\node\shop;
 
 
 use GuzzleHttp\Client;
-use Haistar\ShopeePhpSdk\client\ShopeeApiConfig;
+use Freeflygit\ShopeePhpSdk\client\ShopeeApiConfig;
 use Exception;
 use GuzzleHttp\Exception\ClientException;
-use Haistar\ShopeePhpSdk\client\SignGenerator;
+use Freeflygit\ShopeePhpSdk\client\SignGenerator;
 
 class ShopWithBodyRequest
 {

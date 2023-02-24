@@ -2,7 +2,7 @@
 
 namespace Test\client;
 
-use Haistar\ShopeePhpSdk\client\ShopeeApiConfig;
+use Freeflygit\ShopeePhpSdk\client\ShopeeApiConfig;
 use PHPUnit\Framework\TestCase;
 
 class ShopeeClientTest extends TestCase

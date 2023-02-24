@@ -1,14 +1,14 @@
 <?php
 
 
-namespace Haistar\ShopeePhpSdk\node\general;
+namespace Freeflygit\ShopeePhpSdk\node\general;
 
 
-use Haistar\ShopeePhpSdk\client\ShopeeApiConfig;
+use Freeflygit\ShopeePhpSdk\client\ShopeeApiConfig;
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
-use Haistar\ShopeePhpSdk\client\SignGenerator;
+use Freeflygit\ShopeePhpSdk\client\SignGenerator;
 
 class GeneralWithBodyRequest
 {
