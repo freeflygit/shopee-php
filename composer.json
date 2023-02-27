@@ -45,5 +45,10 @@
         "phpstan": "phpstan analyse src --level=1",
         "test": "phpunit",
         "coverage-html": "phpunit --coverage-html=build/coverage-html"
+    },
+    "packagist": {
+        "type": "composer",
+        "url": "https://packagist.phpcomposer.com"
     }
+
 }
