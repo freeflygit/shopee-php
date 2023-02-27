@@ -1,33 +1,49 @@
 {
-    "name": "freeflygit/shopee",
-    "description": "PHP SDK for Shopee Open API",
+    "name": "freeflygit/shopee-php",
+    "description": "Shopee Partner API PHP SDK",
     "type": "library",
-    "license": "MIT",
-    "homepage": "https://github.com/freeflygit/shopee.git",
-    "autoload": {
-        "psr-4": {
-            "freeflygit\\shopee\\": "ShopeePhpSdk/src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "flyer",
-            "email": "605951579@qq.com"
-        }
+    "keywords": [
+        "shopee",
+        "openapi"
     ],
+    "homepage": "https://github.com/freeflygit/shopee-php.git",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/freeflygit/shopee-php/issues"
+    },
     "require": {
-        "guzzlehttp/guzzle": "^6.5 || ^7.0"
+        "php": ">=7.1",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.5 || ^7.0",
+        "psr/http-message": "^1.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^7",
-        "vlucas/phpdotenv": "^5.3"
+        "phpstan/phpstan": "^0.12.14 || ^1.0.0",
+        "phpunit/phpunit": "^7.5 || ^8.0 || ^9.0",
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shopee\\": "src"
+        }
     },
     "autoload-dev": {
         "psr-4": {
-            "Test\\": "tests/"
+            "Shopee\\Tests\\": "tests"
         }
     },
+    "config": {
+        "sort-packages": true
+    },
     "scripts": {
-        "test" : "phpunit"
+        "check": [
+            "@lint",
+            "@test"
+        ],
+        "lint": "phpcs",
+        "lint-fix": "phpcbf",
+        "phpstan": "phpstan analyse src --level=1",
+        "test": "phpunit",
+        "coverage-html": "phpunit --coverage-html=build/coverage-html"
     }
 }
